@@ -13,7 +13,7 @@ function diagnostics(fixture, module, moduleResolution) {
     module,
     moduleResolution,
     noEmit: true,
-    skipLibCheck: true,
+    skipLibCheck: false,
     strict: true,
     target: ts.ScriptTarget.ES2019,
     types: []
